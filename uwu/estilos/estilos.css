@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html {
+    height: 100%;
+}
+body /*estilos de body indexhtml*/{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    min-height: 100%;
+    background-color: #ab4493;
+}
+.gridcont{
+display: grid;
+grid-auto-columns: 100%;
+grid-template-rows: auto auto auto auto;
+grid-row-gap: 20px;
+}
+.pinteres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.pinteres div{
+    background-color: rgb(255, 145, 0);
+}
+#header{
+    display: grid;
+    background-color: rgb(210, 162, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.imagdeco image{
+    width: 200px;
+    height: 1000px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+.navlist{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navlink{ 
+    text-decoration: none;
+    color: rgb(255, 193, 117);
+    transition: 1s;
+    padding:0.5em;
+    border-radius: 5px;
+}
+.navlink:hover{
+transition: 1s;
+background-color: rgb(255, 193, 117);
+color:rgb(200, 155, 241);
+}
+    
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+/*estilo de formulario de contactos*/ 
+#bodycontact {
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+}
+.contact_form {  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+label{
+  display: block; 
+  float: center;  
+}
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+button p{
+  color: #fff; 
+}
+span{
+  color: #ab4493; 
+}
+.aviso{
+          font-size: 13px;  
+         color: #0e0e0e;  
+}
+h1{
+           font-size: 39px;  
+           text-align: letf; 
+            padding-bottom: 20px; 
+         color: #ab4493;
+}
+h3{
+         font-size: 16px; 
+         padding-bottom: 30px;
+        color: #0e0e0e;   
+}
+p{
+         font-size: 14px; 
+          color: #0e0e0e; 
+}
+::-webkit-input-placeholder {
+        color: #a8a8a8;
+}
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+.formulario input:focus{
+          outline:0;
+         border: 1px solid #97d848;
+}
+.formulario textarea:focus{
+         outline:0;
+         border: 1px solid #97d848;
+} /*fin del formularios de contactos*/
+
+.footercont /*Inicio de estilo dfe footer*/ {
+  justify-content: center;
+  position: end;
+       bottom: 0%;}
+    .footer a{
+      display:flex; flex-direction: row;
+      font-size: small; 
+        list-style-type: none;
+        text-decoration: none;
+        color: azure;
+
+    }
+ /*finalizo estilo de footer*/ 
+
+   
